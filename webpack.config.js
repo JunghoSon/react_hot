@@ -6,8 +6,8 @@ module.exports = {
         filename: 'bundle.js'
     },
 
-    modules: {
-        loader: [
+    module: {
+        loaders: [
             {
                 test: /\.js$/,
                 loader: 'babel',
